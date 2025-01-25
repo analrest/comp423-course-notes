@@ -36,7 +36,7 @@
 * Now create a directory in the root of your project with a file inside by typing ```mkdir .devcontainer```
 * Then make a file in that directory called "devcontainer.json"
 
-### 6. Inside that json file write 
+### 6. Inside that .json file write 
 ``` { .yaml .copy }
 {
     "name": "COMP423 Go",
@@ -50,7 +50,8 @@
     "postCreateCommand": "go version"
 }
 ```
-**NOTE**: Make sure to add the requirements.txt file into your root directory and type ```mkdoc-material~=9.5``` inside it 
+> [!NOTE] 
+> Make sure to add the requirements.txt file into your root directory and type ```mkdoc-material~=9.5``` inside it 
 
 
 ### 7. Now Reopen the project in a dev container
@@ -78,8 +79,8 @@ func main() {
 ```
 * After you've done that you will type Ctrl+S to save your file and then run your go file by typing ```go run .``` in a new terminal
 
-!!! note
-If you get a message that says `hell0.go:1:1: expected 'package', found 'EOF'` that means you did not save your file (Ctrl+S) so please do that
+> [!NOTE]
+> If you get a message that says ```hell0.go:1:1: expected 'package', found 'EOF'``` that means you did not save your file (Ctrl+S) so please do that
 
 ### 10. run VS build 
 * Above we used the command go run which compiled and ran our go file in one shot
@@ -89,5 +90,5 @@ If you get a message that says `hell0.go:1:1: expected 'package', found 'EOF'` t
 * Then you will type ```./hello-file``` which will run the compiled binary file and print the message: ```Hello COMP423```
 
 
-Jordan, Kris "Starting a Static Website Project with MkDocs - COMP423 - Spring 2025" [https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration](https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration) 2025, January 17
+>*Jordan, Kris "Starting a Static Website Project with MkDocs - COMP423 - Spring 2025" [https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration](https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration) 2025, January 17*
 
