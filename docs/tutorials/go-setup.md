@@ -1,5 +1,7 @@
-# Setting up a Dev Container For Go 
-* Primary author: [Ana Restrepo](https://github.com/analrest)
+# Setting up a Dev Container For Go
+### *In this page we will learn how to set up a dev container and print in the terminal Hello COMP423 using the language Go!*
+
+Primary author: [Ana Restrepo](https://github.com/analrest)
 
 ## Prerequisites
 ### Make sure you have:
@@ -29,6 +31,9 @@
 * Next check that your default branch name is main using ```git branch```
 * If it is not main, then change it to main by typing ```git branch -M main```
 * Finally push you local commits to your repo by typing ```git push --set-upstream origin main```
+
+### **Explanation of a dev container**
+A dev container is like a shipping container in that it has predetermined measurements. A dev container is a preconfigured environment that is defined by a set of files which helps provide consistent setups when working with other developers. This solves the "it works on my computer" problem that often happens when working with other developers because now everyone will have identical environments.
 
 ### 5. We will now set up the development environment
 * Open VS Code and then File > Open Folder and find "comp423-go"
