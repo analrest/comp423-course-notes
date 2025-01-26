@@ -18,11 +18,11 @@ Primary author: [Ana Restrepo](https://github.com/analrest)
 
 ### 2. Next step is to create a README file 
 * You can do this by typing ```echo "# COMP423 Go" > README.md```
-* then type ```git add README.md```
-* then ```git commit -m "Initial README commit"```
+* Then type ```git add README.md```
+* Then ```git commit -m "Initial README commit"```
 
 ### 3. Now you will create a remote repository on GitHub
-* log into your github and go to Create a New Repository page and fill in the name "comp423-go", the description "comp 423 learning go", and visibility "public"
+* Log into your github and go to Create a New Repository page and fill in the name "comp423-go", the description "comp 423 learning go", and visibility "public"
 * **DO NOT** initialize the repository with a README, .gitignore, or license
 * Now click Create Repository
 
@@ -37,9 +37,9 @@ A dev container is like a shipping container in that it has predetermined measur
 
 ### 5. We will now set up the development environment
 * Open VS Code and then File > Open Folder and find "comp423-go"
-* Next install Dev Containers extension by clicking the boxes on the left control bar and searching Dev Containers
+* Next install Dev Containers extension by clicking the boxes on the left control bar and searching "Dev Containers"
 * Now create a directory in the root of your project with a file inside by typing ```mkdir .devcontainer```
-* Then make a file in that directory called "devcontainer.json"
+* Then make a file in that directory called "devcontainer.json" by typing ```code .devcontainer/devcontainer.json```
 
 ### 6. Inside that .json file write 
 ``` { .yaml .copy }
@@ -55,8 +55,11 @@ A dev container is like a shipping container in that it has predetermined measur
     "postCreateCommand": "go version"
 }
 ```
-> [!NOTE] 
-> Make sure to add the requirements.txt file into your root directory and type ```mkdoc-material~=9.5``` inside it 
+### To explain what this all means
+* name: A name for your dev container
+* image: The Docker image to use, in this case, the latest version of a Go environment.
+* customizations: This allows you to add useful configurations like extensions and ensure that other developers will have them installed in the dev containers automatically
+* postCreateCommand: This is a command to run after the container is created
 
 
 ### 7. Now Reopen the project in a dev container
@@ -94,6 +97,11 @@ func main() {
 * To use the build command you will type ```go build -o hello-file hello.go``` which compiles your hello.go file into a binary file
 * Then you will type ```./hello-file``` which will run the compiled binary file and print the message: ```Hello COMP423```
 
+### 11. Finally lets push your work to GitHub!
+* To do this you will type ```git add .``` in a new terminal 
+* Then type ```git commit -m "Learned how to code in Go!"``` to commit all your work
+* Finally type ```git push --set-upstream origin main``` to push your work onto your GitHub repository
+* Now when you refresh your browser, you will see your work in your repository!
 
 >*Jordan, Kris "Starting a Static Website Project with MkDocs - COMP423 - Spring 2025" [https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration](https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration) 2025, January 17*
 
