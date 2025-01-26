@@ -106,9 +106,9 @@ func main() {
 ### Results
 
 #### Go
-> I would add your results and a link to your Go repository here
+> [Go results](https://github.com/analrest/comp423-go)
 #### Rust
->I would add your results, a link to my tutorial, and a link to your Rust repository here
+> [Rust results](https://github.com/analrest/rust-setup-tutorials)
 
 >*Jordan, Kris "Starting a Static Website Project with MkDocs - COMP423 - Spring 2025" [https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration](https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration) 2025, January 17*
 
