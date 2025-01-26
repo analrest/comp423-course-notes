@@ -45,11 +45,11 @@ A dev container is like a shipping container in that it has predetermined measur
 ``` { .yaml .copy }
 {
     "name": "COMP423 Go",
-    "image": "mcr.micrsoft.com/devcontainers/go:latest",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
     "customizations": {
         "vscode": {
             "settings": {},
-            "extensions": ["golong.go"] 
+            "extensions": ["golang.go"] 
         }
     },
     "postCreateCommand": "go version"
@@ -102,6 +102,13 @@ func main() {
 * Then type ```git commit -m "Learned how to code in Go!"``` to commit all your work
 * Finally type ```git push --set-upstream origin main``` to push your work onto your GitHub repository
 * Now when you refresh your browser, you will see your work in your repository!
+
+### Results
+
+#### Go
+> [Go results](https://github.com/analrest/comp423-go)
+#### Rust
+> [Rust results](https://github.com/analrest/rust-setup-tutorials)
 
 >*Jordan, Kris "Starting a Static Website Project with MkDocs - COMP423 - Spring 2025" [https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration](https://comp423-25s.github.io/resources/MkDocs/tutorial/#step-2-add-requirementstxt-python-dependency-configuration) 2025, January 17*
 
